@@ -14,14 +14,14 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KafkaBeginnersCourseApplicationB {
+public class KafkaBeginnersCourseApplicationSecondExample {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KafkaBeginnersCourseApplicationB.class, args);
+		SpringApplication.run(KafkaBeginnersCourseApplicationSecondExample.class, args);
 		// System.out.println("Hello peeps!");
 		String bootstrapServer = "localhost:9092";
 
-		Logger logger = LoggerFactory.getLogger(KafkaBeginnersCourseApplicationB.class);
+		Logger logger = LoggerFactory.getLogger(KafkaBeginnersCourseApplicationSecondExample.class);
 		//create producer properties
 		Properties properties = new Properties();
 
